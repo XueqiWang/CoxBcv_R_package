@@ -1,0 +1,16 @@
+Package: CoxBcv
+Type: Package
+Title: Bias-corrected sandwich variance estimators for marginal Cox analysis of cluster randomized trials
+Version: 0.0.1.0
+Authors@R: c(person("Xueqi","Wang", role = c("aut", "cre"),
+            email = "xueqi.wang@duke.edu"),
+            person("Elizabeth", "Turner", role = "aut",
+            email = "liz.turner@duke.edu"),
+            person("Fan", "Li", role = "aut",
+            email = "fan.f.li@yale.edu"))
+Maintainer: Xueqi Wang <xueqi.wang@duke.edu>
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+Imports: 
+    pracma,
+    survival
